@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {Button, TextInput, View, StyleSheet, Alert} from "react-native";
 
 
-
 export const AddTodo = ({onSubmit}) => {
     const [value, setValue] = useState('')
 
